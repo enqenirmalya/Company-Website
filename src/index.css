@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@600;700;800;900&display=swap');
+
+@layer base {
+  :root {
+    /* e-Neermalya Brand Colors - Eco-Tech Theme */
+    --background: 0 0% 100%;
+    --foreground: 210 20% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 12%;
+
+    /* Primary - Teal Green (from brand) */
+    --primary: 166 72% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Deep Slate */
+    --secondary: 210 25% 18%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted */
+    --muted: 180 15% 96%;
+    --muted-foreground: 210 15% 45%;
+
+    /* Accent - Light Teal */
+    --accent: 166 50% 92%;
+    --accent-foreground: 166 72% 25%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 166 72% 35%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(166, 72%, 35%) 0%, hsl(160, 60%, 45%) 100%);
+    --gradient-dark: linear-gradient(135deg, hsl(210, 25%, 18%) 0%, hsl(210, 20%, 25%) 100%);
+    --gradient-hero: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(21, 94, 74, 0.8) 100%);
+    
+    --shadow-soft: 0 4px 20px -4px hsl(166 72% 35% / 0.15);
+    --shadow-card: 0 10px 40px -10px hsl(210 25% 18% / 0.1);
+    --shadow-elevated: 0 25px 50px -12px hsl(210 25% 18% / 0.25);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 166 72% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 166 50% 95%;
+    --sidebar-accent-foreground: 166 72% 25%;
+    --sidebar-border: 210 20% 90%;
+    --sidebar-ring: 166 72% 35%;
+  }
+
+  .dark {
+    --background: 210 25% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 210 25% 12%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 210 25% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 166 60% 45%;
+    --primary-foreground: 210 25% 8%;
+
+    --secondary: 210 20% 20%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 210 20% 15%;
+    --muted-foreground: 210 15% 60%;
+
+    --accent: 166 40% 20%;
+    --accent-foreground: 166 60% 70%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 210 20% 18%;
+    --input: 210 20% 18%;
+    --ring: 166 60% 45%;
+
+    --sidebar-background: 210 25% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 166 60% 45%;
+    --sidebar-primary-foreground: 210 25% 8%;
+    --sidebar-accent: 166 30% 15%;
+    --sidebar-accent-foreground: 166 60% 70%;
+    --sidebar-border: 210 20% 18%;
+    --sidebar-ring: 166 60% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .card-hover:hover {
+    @apply -translate-y-2;
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .btn-shine {
+    @apply relative overflow-hidden;
+  }
+
+  .btn-shine::before {
+    content: '';
+    @apply absolute inset-0 -translate-x-full;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    animation: shine 3s infinite;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+    box-shadow: var(--shadow-card);
+  }
+
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .text-shadow {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@layer utilities {
+  @keyframes shine {
+    0% { transform: translateX(-100%); }
+    50%, 100% { transform: translateX(100%); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { 
+      box-shadow: 0 0 20px hsl(166 72% 35% / 0.3);
+    }
+    50% { 
+      box-shadow: 0 0 40px hsl(166 72% 35% / 0.5);
+    }
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+}
