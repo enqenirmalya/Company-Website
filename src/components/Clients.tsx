@@ -10,13 +10,17 @@ import LTLogo from '@/assets/clients/LT.png';
 import CiplaLogo from '@/assets/clients/Cipla_logo.svg.png';
 import AdityaBirlaLogo from '@/assets/clients/AdityaBirlaCapital.png';
 import PolycabLogo from '@/assets/clients/Polycab.png';
+import CDSLLogo from '@/assets/clients/CDSL.png';
+import CGSTLogo from '@/assets/clients/CGST.png';
 
 const clients = [
   { name: 'RSM International', logo: rsmLogo },
   { name: 'L&T', logo: LTLogo },
   { name: 'Polycab', logo: PolycabLogo },
-  { name: 'Cipla', logo: CiplaLogo },
   { name: 'Aditya Birla Capital', logo: AdityaBirlaLogo },
+  { name: 'Cipla', logo: CiplaLogo },
+  { name: 'CDSL', logo: CDSLLogo },
+  { name: 'CGST', logo: CGSTLogo },
   { name: 'BMC Mumbai', logo: bmcLogo },
   { name: 'NIC India Ltd', logo: nicLogo },
   { name: 'Apna Sahakari Bank', logo: apnaBank },
