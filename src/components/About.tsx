@@ -57,7 +57,7 @@ export const About = () => {
             </div>
 
             <p className="text-muted-foreground leading-relaxed">
-              MASSRR e-Neermalya LLP is a professionally governed e-waste management organisation supporting Government organisations, Corporates, Educational institutes and Housing societies in meeting environmental, social, and regulatory responsibilities through scientific recycling and structured community engagement.
+              MASSRR e-Neermalya LLP is a professionally governed e-waste management organisation supporting Government Organisations, Corporates, Educational Institutes and Housing Societies in meeting environmental, social, and regulatory responsibilities through scientific recycling and structured community engagement.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
