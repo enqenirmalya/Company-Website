@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Our Office',
-    details: ['Shop No-8 F-2 Building,', 'Shankara Colony, Near Universal Majestic', 'Chembur (West), Mumbai - 400043'],
+    details: ['Office No-8 F-2 Building,', 'Shankara Colony, Near Universal Majestic', 'Chembur (West), Mumbai - 400043'],
     action: {
       label: 'Get Direction',
       href: 'https://maps.app.goo.gl/udQ7zxTtvGjKtTyC8',

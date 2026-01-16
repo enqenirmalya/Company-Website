@@ -141,7 +141,7 @@ export const Footer = () => {
                 <div className="flex gap-3">
                   <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                   <p className="text-muted-foreground text-sm">
-                    Shop No-8 F-2 Building, Shankara Colony, Near Universal Majestic, Chembur (West), Mumbai - 400043
+                    Office No-8 F-2 Building, Shankara Colony, Near Universal Majestic, Chembur (West), Mumbai - 400043
                   </p>
                 </div>
                 <div className="flex gap-3 items-center">
