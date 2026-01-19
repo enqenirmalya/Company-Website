@@ -86,7 +86,7 @@ export const Services = () => {
             <span className="gradient-text">Recycling Solutions</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            In addition to E-Waste recycling, we also specialize in E-Waste lifecycle services such as special collection drives, donations, and more.
+            In addition to E-Waste recycling, we also specialize in e-Waste lifecycle services such as special collection drives, donations, and more.
           </p>
         </motion.div>
 
