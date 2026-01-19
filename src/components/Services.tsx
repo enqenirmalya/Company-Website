@@ -82,11 +82,11 @@ export const Services = () => {
             Our Featured Services
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-            Comprehensive E-Waste{' '}
+            Comprehensive e-Waste{' '}
             <span className="gradient-text">Recycling Solutions</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            In addition to E-Waste recycling, we also specialize in e-Waste lifecycle services such as special collection drives, donations, and more.
+            In addition to e-Waste recycling, we also specialize in e-Waste lifecycle services such as special collection drives, donations, and more.
           </p>
         </motion.div>
 
