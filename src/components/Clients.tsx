@@ -13,6 +13,7 @@ import PolycabLogo from '@/assets/clients/Polycab.png';
 import CDSLLogo from '@/assets/clients/CDSL.png';
 import CGSTLogo from '@/assets/clients/CGST.png';
 import AirportLogo from '@/assets/clients/AirportAuthority.png';
+import MTNLLogo from '@/assets/clients/MTNL.png';
 
 const clients = [
   { name: 'RSM International', logo: rsmLogo },
@@ -22,6 +23,7 @@ const clients = [
   { name: 'Cipla', logo: CiplaLogo },
   { name: 'BMC Mumbai', logo: bmcLogo },
   { name: 'Airports Authority of India', logo: AirportLogo },
+  { name: 'MTNL', logo: MTNLLogo },
   { name: 'CDSL', logo: CDSLLogo },
   { name: 'CGST', logo: CGSTLogo },
   { name: 'NIC India Ltd', logo: nicLogo },
