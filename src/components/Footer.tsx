@@ -152,8 +152,8 @@ export const Footer = () => {
                 </div>
                 <div className="flex gap-3 items-center">
                   <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                  <a href="mailto:info@e-neermalya.com" className="text-muted-foreground hover:text-primary transition-colors">
-                    info@e-neermalya.com
+                  <a href="mailto:enq.enirmalya@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    enq.enirmalya@gmail.com
                   </a>
                 </div>
               </div>

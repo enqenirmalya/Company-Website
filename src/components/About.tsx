@@ -19,7 +19,7 @@ const stats = [
   { value: '200+', label: 'Years Combined Experience', icon: Award },
   { value: '5%', label: 'Of India\'s E-Waste Properly Disposed', icon: MapPin },
   { value: '100%', label: 'Regulatory Compliance', icon: Check },
-  { value: '24/7', label: 'Support Available', icon: Users },
+  { value: 'Contact Us', label: 'Support Available', icon: Users },
 ];
 
 export const About = () => {
