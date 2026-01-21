@@ -118,7 +118,7 @@ export const About = () => {
                   className="rounded-2xl bg-primary p-6 text-center"
                 >
                   <h4 className="font-display text-4xl font-bold text-primary-foreground mb-2">5th</h4>
-                  <p className="text-sm text-primary-foreground/80">Largest E-Waste Producer in the World</p>
+                  <p className="text-sm text-primary-foreground/80"> India is 5th largest E-Waste Producer in the World</p>
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
