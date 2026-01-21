@@ -34,7 +34,7 @@ const clients = [
 export const Clients = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
-  const animationDuration = clients.length * 4;
+  // const animationDuration = clients.length * 4;
 
   // Double the clients array for infinite scroll effect
   const duplicatedClients = [...clients, ...clients];
@@ -70,7 +70,7 @@ export const Clients = () => {
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-muted/50 to-transparent z-10 pointer-events-none" />
 
         {/* Scrolling Container */}
-        <div className="flex" style={{ animation: `marquee ${animationDuration}s linear infinite` }}>
+        <div className="flex animate-marquee">
           {duplicatedClients.map((client, index) => (
             <div
               key={index}
