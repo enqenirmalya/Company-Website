@@ -13,7 +13,7 @@ const heroSlides = [
     icon: Recycle,
   },
   {
-    title: 'India Among Top 5   e-Waste Producers',
+    title: 'India Among Top 5 + " " + e-Waste Producers',
     subtitle: 'Making a Difference',
     description: 'We are committed to scientifically disposing e-Waste and protecting our environment.',
     icon: Globe,
