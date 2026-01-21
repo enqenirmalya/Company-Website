@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Check, Award, Users, MapPin } from 'lucide-react';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/CompanyLogo.png';
 import makeInIndia from '@/assets/make-in-india.png';
 import oneEarth from '@/assets/one-earth.jpg';
 
@@ -52,7 +52,7 @@ export const About = () => {
               </span>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-6">
                 Leading the Way in{' '}
-                <span className="gradient-text">Sustainable E-Waste Management</span>
+                <span className="gradient-text">Sustainable e-Waste Management</span>
               </h2>
             </div>
 
@@ -129,7 +129,7 @@ export const About = () => {
                   <img
                     src={logo}
                     alt="e-Neermalya"
-                    className="w-full h-65 object-contain bg-accent p-6"
+                    className="w-full h-65 object-contain bg-accent" //changed made here
                   />
                 </motion.div>
                 <motion.div

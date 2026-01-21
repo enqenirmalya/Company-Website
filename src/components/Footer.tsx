@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, ArrowUp, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/CompanyLogo.png';
 
 const quickLinks = [
   { name: 'Home', href: '#home' },
