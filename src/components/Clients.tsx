@@ -34,6 +34,7 @@ const clients = [
 export const Clients = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const animationDuration = clients.length * 4;
 
   // Double the clients array for infinite scroll effect
   const duplicatedClients = [...clients, ...clients];
