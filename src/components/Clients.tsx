@@ -70,7 +70,7 @@ export const Clients = () => {
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-muted/50 to-transparent z-10 pointer-events-none" />
 
         {/* Scrolling Container */}
-        <div className="flex animate-marquee">
+        <div className="flex" style={{ animation: `marquee ${animationDuration}s linear infinite` }}>
           {duplicatedClients.map((client, index) => (
             <div
               key={index}
