@@ -6,7 +6,7 @@ import bmcLogo from '@/assets/clients/bmc.png';
 import nicLogo from '@/assets/clients/nic.jpg';
 import apnaBank from '@/assets/clients/apna-bank.png';
 import efficientPlastech from '@/assets/clients/efficient-plastech.png';
-import LTLogo from '@/assets/clients/L_T.png';
+import LTLogo from '@/assets/clients/L_T.jpg';
 import CiplaLogo from '@/assets/clients/Cipla_logo.svg.png';
 import AdityaBirlaLogo from '@/assets/clients/AdityaBirlaCapital.png';
 import PolycabLogo from '@/assets/clients/Polycab.png';
