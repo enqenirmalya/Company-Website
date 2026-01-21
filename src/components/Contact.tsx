@@ -154,7 +154,7 @@ export const Contact = () => {
             Get in <span className="text-primary">Touch</span> With Us
           </h2>
           <p className="text-secondary-foreground/70 text-lg">
-            Schedule a pickup or inquire about our E-Waste management services. We're here to help.
+            Schedule a pickup or inquire about our e-Waste management services. We're here to help.
           </p>
         </motion.div>
 

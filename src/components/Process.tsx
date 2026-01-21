@@ -8,14 +8,14 @@ const steps = [
     number: '01',
     icon: Truck,
     title: 'Collect',
-    description: 'We collect E-Waste from your doorstep with our professional pickup service.',
+    description: 'We collect e-Waste from your doorstep with our professional pickup service.',
     color: 'bg-blue-500',
   },
   {
     number: '02',
     icon: ClipboardList,
     title: 'Segregate',
-    description: 'Our experts segregate the E-Waste as per their materials and components.',
+    description: 'Our experts segregate the e-Waste as per their materials and components.',
     color: 'bg-purple-500',
   },
   {
@@ -52,7 +52,7 @@ export const Process = () => {
             Our Process
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-secondary-foreground mt-4 mb-6">
-            How We <span className="text-primary">Recycle</span> Your E-Waste
+            How We <span className="text-primary">Recycle</span> Your e-Waste
           </h2>
           <p className="text-secondary-foreground/70 text-lg">
             Our streamlined 4-step process ensures environmentally responsible disposal of your electronic waste.
@@ -118,7 +118,7 @@ export const Process = () => {
         >
           <div className="bg-card rounded-2xl p-8 md:p-12 max-w-4xl mx-auto shadow-lg border border-border">
             <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Ready to Dispose Your E-Waste Responsibly?
+              Ready to Dispose Your e-Waste Responsibly?
             </h3>
             <p className="text-muted-foreground mb-6">
               Schedule a pickup today and contribute to a cleaner, greener environment.
@@ -127,7 +127,7 @@ export const Process = () => {
               onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:bg-primary/90 hover:shadow-lg btn-shine"
             >
-              Schedule E-Waste Pickup
+              Schedule e-Waste Pickup
               <ArrowRight className="h-5 w-5" />
             </button>
           </div>

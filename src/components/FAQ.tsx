@@ -11,24 +11,24 @@ import {
 
 const faqs = [
   {
-    question: 'What types of E-Waste do you accept?',
+    question: 'What types of e-Waste do you accept?',
     answer: 'We accept all types of electronic waste including computers, laptops, mobile phones, tablets, televisions, cameras, electrical appliances, IT equipment, and more. If you\'re unsure about a specific item, please contact us.',
   },
   {
-    question: 'How do I schedule an E-Waste pickup?',
+    question: 'How do I schedule an e-Waste pickup?',
     answer: 'You can schedule a pickup by filling out our contact form, calling us at 9152579812, or emailing us at info@e-neermalya.com. Our team will arrange a convenient pickup time at your location.',
   },
   {
     question: 'Is there a minimum quantity for pickup?',
-    answer: 'We handle E-Waste of all quantities, from individual items to large commercial volumes. For smaller quantities, you can also drop off at our collection center in Mumbai.',
+    answer: 'We handle e-Waste of all quantities, from individual items to large commercial volumes. For smaller quantities, you can also drop off at our collection center in Mumbai.',
   },
   {
     question: 'What happens to my data on old devices?',
     answer: 'We follow strict data destruction protocols. All storage devices go through secure data wiping or physical destruction processes. We can provide certificates of data destruction upon request.',
   },
   {
-    question: 'Do you provide certificates for E-Waste disposal?',
-    answer: 'Yes, we provide official E-Waste disposal certificates as per regulatory requirements. These certificates are important for compliance and can be used for CSR reporting.',
+    question: 'Do you provide certificates for e-Waste disposal?',
+    answer: 'Yes, we provide official e-Waste disposal certificates as per regulatory requirements. These certificates are important for compliance and can be used for CSR reporting.',
   },
   {
     question: 'What areas do you serve?',
@@ -58,7 +58,7 @@ export const FAQ = () => {
               Frequently Asked <span className="gradient-text">Questions</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Find answers to common questions about our E-Waste recycling services. If you can't find what you're looking for, feel free to contact us.
+              Find answers to common questions about our e-Waste recycling services. If you can't find what you're looking for, feel free to contact us.
             </p>
 
             <div className="bg-primary/5 rounded-2xl p-6 border border-primary/20">
@@ -66,7 +66,7 @@ export const FAQ = () => {
                 Still have questions?
               </h4>
               <p className="text-muted-foreground text-sm mb-4">
-                Our team is here to help you with any queries about E-Waste management.
+                Our team is here to help you with any queries about e-Waste management.
               </p>
               <button
                 onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}

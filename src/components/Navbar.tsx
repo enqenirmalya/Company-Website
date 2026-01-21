@@ -71,7 +71,7 @@ export const Navbar = () => {
             <img src={logo} alt="e-Neermalya" className="h-12 w-12 md:h-14 md:w-14" />
             <div className={`hidden sm:block transition-colors duration-300 ${isScrolled ? 'text-foreground' : 'text-primary-foreground'}`}>
               <span className="text-xs font-medium block">MASSRR</span>
-              <span className="font-display font-bold text-lg">E-NEERMALYA LLP</span>
+              <span className="font-display font-bold text-lg">e-NEERMALYA LLP</span>
             </div>
           </a>
 

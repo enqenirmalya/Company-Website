@@ -42,7 +42,7 @@ export const About = () => {
               <img src={logo} alt="e-Neermalya" className="w-16 h-16" />
               <div>
                 <span className="text-sm font-medium text-muted-foreground block">MASSRR</span>
-                <h3 className="font-display text-2xl font-bold text-foreground">E-NEERMALYA LLP</h3>
+                <h3 className="font-display text-2xl font-bold text-foreground">e-NEERMALYA LLP</h3>
               </div>
             </div>
 

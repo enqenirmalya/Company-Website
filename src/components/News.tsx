@@ -6,23 +6,23 @@ import { Calendar, ArrowRight } from 'lucide-react';
 const news = [
   /**{
     date: '18 February 2023',
-    title: 'Bhoomi Poojan of Our New E-Waste Recycling Facility',
-    excerpt: 'We laid the foundation for our new E-Waste recycling facility at Nagpur. Bhoomi Poojan was conducted on the auspicious occasion.',
+    title: 'Bhoomi Poojan of Our New e-Waste Recycling Facility',
+    excerpt: 'We laid the foundation for our new e-Waste recycling facility at Nagpur. Bhoomi Poojan was conducted on the auspicious occasion.',
   },**/ 
   {
     date: '18 January 2023',
-    title: 'E-Waste Collection Drive at Dr. Jadhav Hospital',
-    excerpt: 'e-Neermalya partnered with prestigious Dr. Jadhav Hospital to conduct E-Waste collection at their premises.',
+    title: 'e-Waste Collection Drive at Dr. Jadhav Hospital',
+    excerpt: 'e-Neermalya partnered with prestigious Dr. Jadhav Hospital to conduct e-Waste collection at their premises.',
   },
   {
     date: '20 December 2022',
-    title: "E-Waste Collection Drive at Pratibha's Class",
-    excerpt: "An E-Waste collection drive was conducted at Pratibha's Class. Our team also educated the youngsters about E-Waste pollution.",
+    title: "e-Waste Collection Drive at Pratibha's Class",
+    excerpt: "An e-Waste collection drive was conducted at Pratibha's Class. Our team also educated the youngsters about e-Waste pollution.",
   },
   {
     date: '15 December 2022',
-    title: 'E-Waste Collection Drive at Mahavir Platinum',
-    excerpt: 'An E-Waste awareness and collection drive was conducted at Mahavir Platinum residential complex.',
+    title: 'e-Waste Collection Drive at Mahavir Platinum',
+    excerpt: 'An e-Waste awareness and collection drive was conducted at Mahavir Platinum residential complex.',
   },
 ];
 
@@ -47,7 +47,7 @@ export const News = () => {
             News & <span className="gradient-text">Updates</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Stay updated with our latest E-Waste collection drives, partnerships, and initiatives.
+            Stay updated with our latest e-Waste collection drives, partnerships, and initiatives.
           </p>
         </motion.div>
 

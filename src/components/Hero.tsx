@@ -7,19 +7,19 @@ import logo from '@/assets/logo.png';
 
 const heroSlides = [
   {
-    title: 'Responsible E-Waste Management',
-    subtitle: 'MASSRR E-NEERMALYA LLP',
+    title: 'Responsible e-Waste Management',
+    subtitle: 'MASSRR e-NEERMALYA LLP',
     description: 'Leading the way in sustainable electronic waste recycling for a cleaner tomorrow.',
     icon: Recycle,
   },
   {
-    title: 'India Among Top 5 E-Waste Producers',
+    title: 'India Among Top 5 e-Waste Producers',
     subtitle: 'Making a Difference',
-    description: 'We are committed to scientifically disposing E-Waste and protecting our environment.',
+    description: 'We are committed to scientifically disposing e-Waste and protecting our environment.',
     icon: Globe,
   },
   {
-    title: 'One Earth, Zero E-Waste',
+    title: 'One Earth, Zero e-Waste',
     subtitle: 'Our Mission',
     description: 'Join us in creating a sustainable future by recycling your electronic waste responsibly.',
     icon: Leaf,
@@ -49,7 +49,7 @@ export const Hero = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="E-Waste Recycling Facility"
+          alt="e-Waste Recycling Facility"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 hero-gradient" />

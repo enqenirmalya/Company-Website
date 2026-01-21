@@ -17,7 +17,7 @@ const services = [
   'Electrical Appliances',
   'IT Equipment',
   'Camera & Electronics',
-  'Corporate E-Waste',
+  'Corporate e-Waste',
 ];
 
 const socialLinks = [
@@ -47,7 +47,7 @@ export const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
               <h3 className="font-display text-2xl md:text-3xl font-bold text-primary-foreground">
-                Ready to Recycle Your E-Waste?
+                Ready to Recycle Your e-Waste?
               </h3>
               <p className="text-primary-foreground/80 mt-2">
                 Schedule a pickup today and contribute to a cleaner environment.
@@ -73,11 +73,11 @@ export const Footer = () => {
                 <img src={logo} alt="e-Neermalya" className="h-12 w-12" />
                 <div>
                   <span className="text-xs font-medium text-muted-foreground block">MASSRR</span>
-                  <span className="font-display font-bold text-lg text-background">E-NEERMALYA LLP</span>
+                  <span className="font-display font-bold text-lg text-background">e-NEERMALYA LLP</span>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Leading E-Waste Management Company committed to sustainable electronic waste recycling for a cleaner tomorrow.
+                Leading e-Waste Management Company committed to sustainable electronic waste recycling for a cleaner tomorrow.
               </p>
               <div className="flex gap-3">
                 {socialLinks.map((social, index) => (
@@ -166,7 +166,7 @@ export const Footer = () => {
       <div className="border-t border-background/10 py-6">
         <div className="container-custom flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm text-center md:text-left">
-            © {new Date().getFullYear()} MASSRR E-NEERMALYA LLP. All rights reserved.
+            © {new Date().getFullYear()} MASSRR e-NEERMALYA LLP. All rights reserved.
           </p>
           {/*<div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
