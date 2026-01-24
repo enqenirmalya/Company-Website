@@ -10,12 +10,12 @@ const news = [
     excerpt: 'We laid the foundation for our new e-Waste recycling facility at Nagpur. Bhoomi Poojan was conducted on the auspicious occasion.',
   },**/ 
   {
-    date: '18 January 2023',
+    date: '09 August 2024',
     title: 'e-Waste Collection Drive at Swami College',
     excerpt: 'e-Neermalya conducted an e-Waste collection and awareness drive at Swami College. Students and faculty actively participated, and our team highlighted the importance of responsible e-Waste disposal and its environmental impact.',
   },
   {
-    date: '20 December 2022',
+    date: '11 May 2024',
     title: "e-Waste Collection Drive at Tilak Nagar",
     excerpt: "An e-Waste collection drive was successfully conducted at Tilak Nagar. Residents enthusiastically contributed their unused electronic waste while learning about safe disposal practices and sustainability.",
   },
