@@ -17,7 +17,7 @@ const news = [
   {
     date: '11 May 2024',
     title: "e-Waste Collection Drive at Tilak Nagar",
-    excerpt: "An e-Waste collection drive was successfully conducted at Tilak Nagar. Residents enthusiastically contributed their unused electronic waste while learning about safe disposal practices and sustainability.",
+    excerpt: "An e-Waste collection drive was successfully conducted at Tilak Nagar by e-Neermalya. Residents enthusiastically contributed their unused electronic waste while learning about safe disposal practices and sustainability.",
   },
   {
     date: '15 December 2022',
