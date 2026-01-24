@@ -11,13 +11,13 @@ const news = [
   },**/ 
   {
     date: '18 January 2023',
-    title: 'e-Waste Collection Drive at Dr. Jadhav Hospital',
-    excerpt: 'e-Neermalya partnered with prestigious Dr. Jadhav Hospital to conduct e-Waste collection at their premises.',
+    title: 'e-Waste Collection Drive at Swami College',
+    excerpt: 'e-Neermalya conducted an e-Waste collection and awareness drive at Swami College. Students and faculty actively participated, and our team highlighted the importance of responsible e-Waste disposal and its environmental impact.',
   },
   {
     date: '20 December 2022',
-    title: "e-Waste Collection Drive at Pratibha's Class",
-    excerpt: "An e-Waste collection drive was conducted at Pratibha's Class. Our team also educated the youngsters about e-Waste pollution.",
+    title: "e-Waste Collection Drive at Tilak Nagar",
+    excerpt: "An e-Waste collection drive was successfully conducted at Tilak Nagar. Residents enthusiastically contributed their unused electronic waste while learning about safe disposal practices and sustainability.",
   },
   {
     date: '15 December 2022',
