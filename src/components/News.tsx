@@ -8,11 +8,21 @@ const news = [
     date: '18 February 2023',
     title: 'Bhoomi Poojan of Our New e-Waste Recycling Facility',
     excerpt: 'We laid the foundation for our new e-Waste recycling facility at Nagpur. Bhoomi Poojan was conducted on the auspicious occasion.',
-  },**/ 
+  },**/
+  {
+    date:'28 June 2025',
+    title: 'e-Waste Collection Drive at Godrej Prime',
+    excerpt: 'An e-Waste collection drive was conducted at Peston Sagar, encouraging local residents to dispose of electronic waste responsibly. The drive aimed to promote environmental consciousness and sustainable waste management.',
+  },
   {
     date: '09 August 2024',
     title: 'e-Waste Collection Drive at Swami College',
     excerpt: 'e-Neermalya conducted an e-Waste collection and awareness drive at Swami College. Students and faculty actively participated, and our team highlighted the importance of responsible e-Waste disposal and its environmental impact.',
+  },
+  {
+    date: '11 June 2024',
+    title: 'e-Waste Collection Drive at Chedda Nagar',
+    excerpt: 'e-Neermalya organized an e-Waste awareness and collection drive at Chedda Nagar. The initiative received strong community support and helped spread awareness about reducing e-Waste pollution.',
   },
   {
     date: '11 May 2024',
@@ -20,9 +30,9 @@ const news = [
     excerpt: "An e-Waste collection drive was successfully conducted at Tilak Nagar by e-Neermalya. Residents enthusiastically contributed their unused electronic waste while learning about safe disposal practices and sustainability.",
   },
   {
-    date: '15 December 2022',
-    title: 'e-Waste Collection Drive at Mahavir Platinum',
-    excerpt: 'An e-Waste awareness and collection drive was conducted at Mahavir Platinum residential complex.',
+    date: '06 February 2024',
+    title: 'e-Waste Collection Drive at Peston Sagar',
+    excerpt: 'An e-Waste collection drive was conducted at Peston Sagar, encouraging local residents to dispose of electronic waste responsibly. The drive aimed to promote environmental consciousness and sustainable waste management.',
   },
 ];
 
@@ -44,7 +54,7 @@ export const News = () => {
             Latest News
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-            News & <span className="gradient-text">Updates</span>
+            Drives & <span className="gradient-text">Updates</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Stay updated with our latest e-Waste collection drives, partnerships, and initiatives.
