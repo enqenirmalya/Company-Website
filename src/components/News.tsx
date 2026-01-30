@@ -58,7 +58,7 @@ export const News = () => {
             Latest News
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-            Drives & <span className="gradient-text">Updates</span>
+            News & <span className="gradient-text">Updates</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Stay updated with our latest e-Waste collection drives, partnerships, and initiatives.
