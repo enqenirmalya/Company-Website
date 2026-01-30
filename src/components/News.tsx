@@ -1,7 +1,11 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Calendar, ArrowRight } from 'lucide-react';
+import { Calendar } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
+
 
 const news = [
   /**{
@@ -89,6 +93,14 @@ export const News = () => {
             </motion.article>
           ))}
         </div>
+        <div className="text-center mt-12">
+                  <Link to="/articles">
+                    <Button size="lg" className="btn-shine">
+                      View All Awareness Articles
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                </div>
       </div>
     </section>
   );
