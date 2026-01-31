@@ -24,6 +24,33 @@ type MicrolinkResponse = {
 const CACHE_PREFIX = "linkPreview:";
 const DEFAULT_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 
+/**
+ * Normalizes user-provided URLs so that:
+ * - "example.com/page" becomes "https://example.com/page"
+ * - "http(s)://..." stays unchanged
+ *
+ * This prevents the browser from treating URLs as relative paths on localhost,
+ * which can lead to React Router's NotFound page.
+ */
+export function normalizeLinkUrl(inputUrl: string): string {
+  const trimmed = inputUrl.trim();
+  if (!trimmed) return trimmed;
+
+  // Already absolute?
+  try {
+    // eslint-disable-next-line no-new
+    new URL(trimmed);
+    return trimmed;
+  } catch {
+    // continue
+  }
+
+  // Protocol-relative (e.g. //example.com)
+  if (trimmed.startsWith("//")) return `https:${trimmed}`;
+
+  return `https://${trimmed}`;
+}
+
 function safeUrlToHostname(url: string): string | undefined {
   try {
     return new URL(url).hostname;
@@ -63,10 +90,11 @@ function getCacheKey(url: string) {
 }
 
 export function getFallbackLinkPreview(url: string): LinkPreview {
-  const hostname = safeUrlToHostname(url);
+  const normalizedUrl = normalizeLinkUrl(url);
+  const hostname = safeUrlToHostname(normalizedUrl);
   return {
-    url,
-    title: hostname || url,
+    url: normalizedUrl,
+    title: hostname || normalizedUrl,
     description: undefined,
     image: undefined,
     siteName: hostname ? hostname.replace(/^www\./, "") : undefined,
@@ -77,7 +105,7 @@ export async function getLinkPreview(
   url: string,
   opts?: { ttlMs?: number },
 ): Promise<LinkPreview> {
-  const trimmedUrl = url.trim();
+  const trimmedUrl = normalizeLinkUrl(url);
   const ttlMs = opts?.ttlMs ?? DEFAULT_TTL_MS;
   const cacheKey = getCacheKey(trimmedUrl);
 

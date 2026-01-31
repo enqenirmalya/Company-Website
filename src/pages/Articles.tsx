@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useQuery } from '@tanstack/react-query';
-import { getFallbackLinkPreview, getLinkPreview } from '@/lib/linkPreview';
+import { getFallbackLinkPreview, getLinkPreview, normalizeLinkUrl } from '@/lib/linkPreview';
 
 type ArticleSource = {
   id: number;
@@ -46,20 +46,21 @@ const articles: ArticleSource[] = [
 ];
 
 const ArticleCard = ({ article, index }: { article: ArticleSource; index: number }) => {
+  const normalizedUrl = normalizeLinkUrl(article.url);
   const query = useQuery({
-    queryKey: ['link-preview', article.url],
-    queryFn: () => getLinkPreview(article.url),
+    queryKey: ['link-preview', normalizedUrl],
+    queryFn: () => getLinkPreview(normalizedUrl),
     staleTime: 7 * 24 * 60 * 60 * 1000,
     gcTime: 7 * 24 * 60 * 60 * 1000,
     retry: 1,
   });
 
-  const preview = query.data ?? getFallbackLinkPreview(article.url);
+  const preview = query.data ?? getFallbackLinkPreview(normalizedUrl);
   const isReady = !!query.data || query.isError;
 
   return (
     <motion.a
-      href={article.url}
+      href={normalizedUrl}
       target="_blank"
       rel="noopener noreferrer"
       initial={{ opacity: 0, y: 30 }}
@@ -114,7 +115,7 @@ const ArticleCard = ({ article, index }: { article: ArticleSource; index: number
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground pt-4 border-t border-border">
           <div className="flex items-center gap-1">
             <Globe className="h-3 w-3" />
-            {preview.siteName || new URL(article.url).hostname.replace(/^www\./, '')}
+            {preview.siteName || new URL(normalizedUrl).hostname.replace(/^www\./, '')}
           </div>
         </div>
       </div>
