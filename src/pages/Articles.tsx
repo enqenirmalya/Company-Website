@@ -36,12 +36,12 @@ const articles: ArticleSource[] = [
   {
     id: 5,
     category: 'Awareness',
-    url: 'https://www.downtoearth.org.in/blog/waste/india-s-e-waste-generation-grew-by-over-115-in-eight-years-88702',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11325305/',
   },
   {
     id: 6,
     category: 'Health',
-    url: 'https://education.nationalgeographic.org/resource/e-waste-and-its-negative-effects-environment/',
+    url: 'https://microjournal.researchfloor.org/impact-of-e-waste-on-human-health-and-environment/',
   },
 ];
 
