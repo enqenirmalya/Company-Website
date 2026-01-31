@@ -26,7 +26,7 @@ const articles: ArticleSource[] = [
   {
     id: 3,
     category: 'Guide',
-    url: 'https://www.consumerreports.org/electronics/how-to-recycle-electronics/',
+    url: 'https://share.google/tG7Ixn7HWmniweVkK',
   },
   {
     id: 4,
