@@ -31,7 +31,7 @@ const articles: ArticleSource[] = [
   {
     id: 4,
     category: 'Recycling',
-    url: 'https://www.unep.org/resources/report/global-e-waste-monitor-2024',
+    url: 'https://earth.org/what-is-e-waste-recycling/',
   },
   {
     id: 5,
