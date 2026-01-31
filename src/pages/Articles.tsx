@@ -26,7 +26,7 @@ const articles: ArticleSource[] = [
   {
     id: 3,
     category: 'Guide',
-    url: 'https://share.google/tG7Ixn7HWmniweVkK',
+    url: 'https://www.deskbird.com/blog/e-waste',
   },
   {
     id: 4,
