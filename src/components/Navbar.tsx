@@ -136,7 +136,7 @@ export const Navbar = () => {
                   <button
                     key={link.name}
                     onClick={() => handleNavClick(link.href)}
-                    className="text-left font-medium text-foreground py-2 hover:text-primary transition-colors"
+                    className="text-left font-medium text-white py-2 hover:text-primary transition-colors"
                   >
                     {link.name}
                   </button>
@@ -144,14 +144,14 @@ export const Navbar = () => {
                 <div className="pt-4 border-t border-border flex flex-col gap-3">
                   <a
                     href="tel:9152579812"
-                    className="flex items-center gap-2 text-foreground hover:text-primary"
+                    className="flex items-center gap-2 text-white hover:text-primary"
                   >
                     <Phone className="h-4 w-4" />
                     9152579812
                   </a>
                   <a
                     href="mailto:info@e-neermalya.com"
-                    className="flex items-center gap-2 text-foreground hover:text-primary"
+                    className="flex items-center gap-2 text-white hover:text-primary"
                   >
                     <Mail className="h-4 w-4" />
                     info@e-neermalya.com
