@@ -16,7 +16,7 @@ const articles: ArticleSource[] = [
   {
     id: 1,
     category: 'Education',
-    url: 'https://www.epa.gov/recycle/electronics-donation-and-recycling',
+    url: 'https://www.epa.gov/electronics-batteries-management',
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const articles: ArticleSource[] = [
   {
     id: 4,
     category: 'Recycling',
-    url: 'https://earth.org/what-is-e-waste-recycling/',
+    url: 'https://www.rts.com/blog/the-complete-e-waste-recycling-process/',
   },
   {
     id: 5,
