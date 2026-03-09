@@ -15,12 +15,14 @@ import CGSTLogo from '@/assets/clients/CGST.png';
 import AirportLogo from '@/assets/clients/AirportAuthority.png';
 import MTNLLogo from '@/assets/clients/MTNL.png';
 import jiobp_logo from '@/assets/clients/bp_jio_logo.png';
+import ambuja_logo from '@/assets/clients/ambuja_logo.png';
 
 const clients = [
   { name: 'RSM International', logo: rsmLogo },
   { name: 'L&T', logo: LTLogo },
   { name: 'Polycab', logo: PolycabLogo },
   { name: 'Jio-bp', logo: jiobp_logo },
+  { name: 'Ambuja_cement', logo: ambuja_logo},
   { name: 'Aditya Birla Capital', logo: AdityaBirlaLogo },
   { name: 'Cipla', logo: CiplaLogo },
   { name: 'BMC Mumbai', logo: bmcLogo },
