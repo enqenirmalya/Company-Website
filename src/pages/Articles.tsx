@@ -26,7 +26,7 @@ const articles: ArticleSource[] = [
   {
     id: 3,
     category: 'Guide',
-    url: 'https://www.deskbird.com/blog/e-waste',
+    url: 'https://www.greenpractices.in/blog/what-is-e-waste-recycling-and-how-is-it-done',
   },
   {
     id: 4,
