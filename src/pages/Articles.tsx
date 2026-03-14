@@ -21,7 +21,7 @@ const articles: ArticleSource[] = [
   {
     id: 2,
     category: 'Environment',
-    url: 'https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)',
+    url: 'https://ewastemonitor.info/the-global-e-waste-monitor-2024/',
   },
   {
     id: 3,
