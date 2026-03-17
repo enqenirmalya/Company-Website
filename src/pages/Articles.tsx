@@ -41,7 +41,7 @@ const articles: ArticleSource[] = [
   {
     id: 6,
     category: 'Health',
-    url: 'https://microjournal.researchfloor.org/impact-of-e-waste-on-human-health-and-environment/',
+    url: 'https://pubmed.ncbi.nlm.nih.gov/34150306/',
   },
 ];
 
